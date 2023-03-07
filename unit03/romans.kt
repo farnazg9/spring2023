@@ -1,15 +1,21 @@
-package unit3
+fun main() {
+    var number: Int
+    print("enter a number in the range on 1 through 10: ")
+    number = readLine()!!.toInt()
 
-fun main () {
+    when (number) {
+        1 -> println("I")
+        2 -> println("II")
+        3 -> println("III")
+        4 -> println("IV")
+        5 -> println("V")
+        6 -> println("VI")
+        7 -> println("II")
+        8 -> println("VII")
+        9 -> println("IX")
+        10 -> println("X")
+        else -> println("error")
 
-}
-val number = 1
-
-if (number = 1) {
-    println("The Roman Numeral is I")
-} else {
-    println("error")
-}
-
+    }
 
 }

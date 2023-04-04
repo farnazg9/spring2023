@@ -22,4 +22,42 @@ fun main() {
         "yes" -> glutenfree = true
         "no" -> glutenfree = false
     }
+
+    if (vegetarian == false && vegan == false && glutenfree == false) {
+        println("These are your restaurant choices:")
+        println("Corner Cafe")
+        println("The Chef's Kitchen")
+    }
+
+    else if (vegetarian == true && vegan == false && glutenfree == false) {
+        println("These are your restaurant choices:")
+        println("Corner Cafe")
+        println("The Chef's Kitchen")
+    }
+
+    else if (vegetarian == true && vegan == false && glutenfree == true) {
+        println("These are your restaurant choices:")
+        println("Corner Cafe")
+        println("The Chef's Kitchen")
+    }
+
+    else if (vegetarian == false && vegan == true && glutenfree == true) {
+        println("These are your restaurant choices:")
+        println("Corner Cafe")
+        println("The Chef's Kitchen")
+        println("Main Street Pizza Company")
+        println("Mama's Fine Italian")
+    }
+
+    else if (vegetarian == false && vegan == false && glutenfree == true) {
+        println("These are your restaurant choices:")
+        println("Corner Cafe")
+        println("The Chef's Kitchen")
+        println("Main Street Pizza Company")
+    }
+
+    else {
+        println("These are your restaurant choices:")
+        println("Joe's Gourmet Burgers")
+    }
 }
